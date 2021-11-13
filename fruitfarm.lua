@@ -34,7 +34,7 @@ if ServerHop then
         end
         syn.queue_on_teleport([[
             getgenv().ServerHop = true 
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/Open-Source/main/Fruit%20Farm.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/muhammadfarhan26/True-Piece-Server-Hop/main/fruitfarm.lua"))()
         ]])
         repeat wait()
             teleport()
